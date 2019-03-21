@@ -4,7 +4,7 @@ def input_to_index(input)
   input = input - 1;
 end
 
-def updating_board(board, index, value = "")
+def move(board, index, value = "")
   board[index] = value
 end
 
