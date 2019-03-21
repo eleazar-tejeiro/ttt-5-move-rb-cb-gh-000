@@ -2,7 +2,7 @@
 def input_to_index(input)
   input = input.to_i
   input = input - 1;
-  return input
+  input
 end
 
 def move(board, index, value = "X")
