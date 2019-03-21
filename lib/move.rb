@@ -1,7 +1,7 @@
 # code your input_to_index and move method here!
 def input_to_index(index)
   index = index.to_i
-  input = index - 1;
+  index = index - 1;
   return index
 end
 
