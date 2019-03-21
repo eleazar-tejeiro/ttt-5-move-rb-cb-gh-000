@@ -4,8 +4,8 @@ def input_to_index(input)
   input = input - 1;
 end
 
-def move(board, input, value = "")
-  board[input] = value
+def move(board, index, value = "")
+  board[index] = value
 end
 
 def display_board(board)
