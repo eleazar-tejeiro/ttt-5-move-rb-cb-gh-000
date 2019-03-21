@@ -32,7 +32,7 @@ describe './lib/move.rb' do
 
     it 'allows "X" player in the bottom right' do
       board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-      move(board, 8)
+      move(board, 8, "X")
 
       expect(board).to eq([" ", " ", " ", " ", " ", " ", " ", " ", "X"])
     end
